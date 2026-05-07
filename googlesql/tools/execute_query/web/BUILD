@@ -13,6 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+load("@rules_cc//cc:cc_library.bzl", "cc_library")
 load("@bazel_skylib//:bzl_library.bzl", "bzl_library")
 load(":embed_files.bzl", "gen_string_constant_header_file")
 
